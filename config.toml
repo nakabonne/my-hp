@@ -1,0 +1,76 @@
+## Basic Configuration
+
+baseurl = "https://nakaboone.com" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "nakabonne"
+title = "nakaboone"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Ryo Nakao"
+intro = "Software Engineer"
+description = "Gopher, Vimmer, Rubyist, Unity"
+authorimage = "profile.jpeg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "nakabonne"
+instagram = "nakabonne"
+#linkedin = "<username>"
+twitter = "nakabonne"
+facebook = "nakabonne"
+#stackoverflow = "ryo-nakao"
+email = "rodriguez.nak@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Ryo Nakao. [nakabonne](https://nakabonne.com)." 
+poweredby = false
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog(jp)"
+    weight = 100
+    identifier = "blog"
+    url = "http://nakawatch.hatenablog.com/"
+[[menu.main]]
+    name = "qiita"
+    identifier = "qiita"
+    weight = 200
+    url = "https://qiita.com/nakabonne"
+[[menu.main]]
+    name = "wantedly"
+    identifier = "wantedly"
+    weight = 300
+    url = "https://www.wantedly.com/users/18358896"
+[[menu.main]]
+    name = "app store"
+    identifier = "app store"
+    weight = 400
+    url = "https://itunes.apple.com/jp/developer/ryo-nakao/id1140233971?l=en&mt=8"
+[[menu.main]]
+    name = "play store"
+    identifier = "play store"
+    weight = 500
+    url = "https://play.google.com/store/apps/developer?id=Ryo+Nakao"
