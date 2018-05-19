@@ -9,7 +9,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "nakabonne"
+author = "Ryo Nakao"
 title = "Ryo Nakao"
 
 theme = "hugo-goa"
@@ -17,7 +17,7 @@ theme = "hugo-goa"
 ## Hugo Built-in Features
 #disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 #googleAnalytics = "XYZ"
-#enableRobotsTXT = true
+enableRobotsTXT = true
 
 ## Site Settings
 [params]
@@ -29,8 +29,8 @@ dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Software Engineer"
+keywords = "engineer,go,ruby,vim,unity,student"
 
 ## Social Accounts
 [params.social]
