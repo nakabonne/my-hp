@@ -24,7 +24,7 @@ enableRobotsTXT = true
 author = "Ryo Nakao"
 intro = "Software Engineer"
 description = "Gopher, Vimmer, Rubyist, Unity"
-authorimage = "profile.jpeg"
+authorimage = "icon.png"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
