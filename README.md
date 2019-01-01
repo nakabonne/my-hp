@@ -21,10 +21,11 @@ $ firebase init
 File public/index.html already exists. Overwrite? ←Noと答える
 ```
 
-modify
+modify and build
 
 ```
-$ vi public/index.html
+$ vi config.toml
+$ hugo # public/index.htmlが更新される
 ```
 
 deploy
