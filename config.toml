@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Ryo Nakao"
 intro = "Software Engineer"
-description = "Gopher, Vimmer, Rubyist, Unity"
+description = "@nakabonne"
 authorimage = "icon.png"
 dateformat = "Jan 2, 2006"
 
@@ -35,7 +35,7 @@ keywords = "engineer,go,ruby,vim,unity,student"
 ## Social Accounts
 [params.social]
 github = "nakabonne"
-instagram = "nakabonne"
+#instagram = "nakabonne"
 #linkedin = "<username>"
 twitter = "nakabonne"
 facebook = "nakabonne"
@@ -52,25 +52,35 @@ highlightjs = true
 [[menu.main]]
     name = "blog(jp)"
     weight = 100
-    identifier = "blog"
+    identifier = "blog-jp"
     url = "http://nakawatch.hatenablog.com/"
+[[menu.main]]
+    name = "blog(en)"
+    weight = 200
+    identifier = "blog-en"
+    url = "https://medium.com/@nakabonne"
 [[menu.main]]
     name = "qiita"
     identifier = "qiita"
-    weight = 200
+    weight = 300
     url = "https://qiita.com/nakabonne"
+[[menu.main]]
+    name = "speaker deck"
+    identifier = "speaker deck"
+    weight = 400
+    url = "https://speakerdeck.com/nakabonne"
 [[menu.main]]
     name = "wantedly"
     identifier = "wantedly"
-    weight = 300
+    weight = 500
     url = "https://www.wantedly.com/users/18358896"
 [[menu.main]]
     name = "app store"
     identifier = "app store"
-    weight = 400
+    weight = 600
     url = "https://itunes.apple.com/jp/developer/ryo-nakao/id1140233971?l=en&mt=8"
 [[menu.main]]
     name = "play store"
     identifier = "play store"
-    weight = 500
+    weight = 700
     url = "https://play.google.com/store/apps/developer?id=Ryo+Nakao"
