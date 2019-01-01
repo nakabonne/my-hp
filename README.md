@@ -1,10 +1,10 @@
 # my-hp
 
-## Getting Started
-
-### Requires
+## Requires
 
 - node.js
+
+## Getting Started
 
 install firebase tools
 
@@ -19,6 +19,12 @@ $ cd my-hp
 $ firebase login
 $ firebase init
 File public/index.html already exists. Overwrite? ←Noと答える
+```
+
+modify
+
+```
+$ vi public/index.html
 ```
 
 deploy
