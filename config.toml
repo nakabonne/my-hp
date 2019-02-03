@@ -40,7 +40,7 @@ linkedin = "ryo-nakao-553529172"
 twitter = "nakabonne"
 facebook = "nakabonne"
 #stackoverflow = "ryo-nakao"
-email = "rodriguez.nak@gmail.com"
+email = "nakabonne@gmail.com"
 
 ## Extras
 [params.extra]
@@ -50,37 +50,37 @@ highlightjs = true
 
 ## Main Menu
 [[menu.main]]
-    name = "blog(jp)"
+    name = "Blog(jp)"
     weight = 100
     identifier = "blog-jp"
     url = "http://nakawatch.hatenablog.com/"
 [[menu.main]]
-    name = "blog(en)"
+    name = "Blog(en)"
     weight = 200
     identifier = "blog-en"
     url = "https://medium.com/@nakabonne"
 [[menu.main]]
-    name = "qiita"
+    name = "Qiita"
     identifier = "qiita"
     weight = 300
     url = "https://qiita.com/nakabonne"
 [[menu.main]]
-    name = "speaker deck"
+    name = "Presentations"
     identifier = "speaker deck"
     weight = 400
     url = "https://speakerdeck.com/nakabonne"
 [[menu.main]]
-    name = "wantedly"
+    name = "Wantedly"
     identifier = "wantedly"
     weight = 500
     url = "https://www.wantedly.com/users/18358896"
 [[menu.main]]
-    name = "app store"
+    name = "App store"
     identifier = "app store"
     weight = 600
     url = "https://itunes.apple.com/jp/developer/ryo-nakao/id1140233971?l=en&mt=8"
 [[menu.main]]
-    name = "play store"
+    name = "Play store"
     identifier = "play store"
     weight = 700
     url = "https://play.google.com/store/apps/developer?id=Ryo+Nakao"
