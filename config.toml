@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://nakabonne.com" 
+baseurl = "https://nakabonne.com"
 #builddrafts = false
 #canonifyurls = false
 languageCode = "en-US"
@@ -44,7 +44,7 @@ email = "nakabonne@gmail.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2018. Ryo Nakao. [nakabonne](https://nakabonne.com)." 
+copyright = "© 2018. Ryo Nakao. [nakabonne](https://nakabonne.com)."
 poweredby = false
 highlightjs = true
 
@@ -60,27 +60,12 @@ highlightjs = true
     identifier = "blog-en"
     url = "https://medium.com/@nakabonne"
 [[menu.main]]
-    name = "Qiita"
-    identifier = "qiita"
+    name = "Wantedly"
+    identifier = "wantedly"
     weight = 300
-    url = "https://qiita.com/nakabonne"
+    url = "https://www.wantedly.com/users/18358896"
 [[menu.main]]
     name = "Presentations"
     identifier = "speaker deck"
     weight = 400
     url = "https://speakerdeck.com/nakabonne"
-[[menu.main]]
-    name = "Wantedly"
-    identifier = "wantedly"
-    weight = 500
-    url = "https://www.wantedly.com/users/18358896"
-[[menu.main]]
-    name = "App store"
-    identifier = "app store"
-    weight = 600
-    url = "https://itunes.apple.com/jp/developer/ryo-nakao/id1140233971?l=en&mt=8"
-[[menu.main]]
-    name = "Play store"
-    identifier = "play store"
-    weight = 700
-    url = "https://play.google.com/store/apps/developer?id=Ryo+Nakao"
